@@ -1,0 +1,42 @@
+#heading {
+  color: goldenrod;
+  text-align: center;
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.product-list {
+  width: 50%;
+  border: 2px solid goldenrod;
+  padding: 50px;
+}
+.product-list img {
+  width: 250px;
+  height: 300px;
+}
+
+.shopping-cart {
+  width: 40%;
+  border: 2px solid aquamarine;
+  padding: 40px;
+  margin-left: 100px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.cart-item img {
+  width: 50px;
+  height: 50px;
+}
+#clear-cart {
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */
